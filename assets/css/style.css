@@ -104,6 +104,39 @@ aside {
   margin-bottom: 32px;
   color: #ffffff;
 }
+
+/* changed class to element selector */
+aside img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+img {
+  max-height: 200px;
+}
 /*  commented out because these were redundant
 .benefit-brand {
   margin-bottom: 32px;
@@ -115,10 +148,7 @@ aside {
   color: #ffffff;
 }
 */
-h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
+
 /* 
 .benefit-brand h3 {
   margin-bottom: 10px;
@@ -131,12 +161,6 @@ h3 {
 }
  */
 
-/* changed class to element selector */
-aside img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
 /*  commented out due to these being redundant
 .benefit-brand img {
   display: block;
@@ -172,9 +196,7 @@ aside img {
   color: #ffffff;
 }
 */
-img {
-  max-height: 200px;
-}
+
 /*  commented out these as redundant
 .online-reputation-management img {
   max-height: 200px;
@@ -184,11 +206,6 @@ img {
   max-height: 200px;
 }
 */
-
-h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
 
 /* commented these out as unnecessary
 .search-engine-optimization h2 {
@@ -206,14 +223,3 @@ h2 {
   font-size: 36px;
 }
  */
-.footer {
-  padding: 30px;
-  clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-}
-
-.footer h2 {
-  font-size: 20px;
-}
